@@ -4,7 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         timestamps() {
-          sh 'gradlew assemble'
+          sh './gradlew assemble'
         }
 
       }
